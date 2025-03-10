@@ -1,0 +1,37 @@
+.payment-details-main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.merchant-logo-mobile {
+  width: 65px !important;
+}
+
+.merchant-name {
+  margin-top: 3px !important;
+}
+
+.merchant-mobile {
+  border-radius: 20px;
+  box-shadow: 2px 0px 10px 1px rgb(0 0 0 / 10%);
+  margin: 20px 0px
+}
+
+.payment-failed-actions {
+  position: fixed;
+  bottom: 20px;
+  width: 90%;
+}
+
+@media screen and (min-width: 950px) {
+  .payment-failed-actions {
+    width: 73%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 950px) {
+  .payment-details-main {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

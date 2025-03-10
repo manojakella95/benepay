@@ -1,0 +1,39 @@
+.payment-details-main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.merchant-logo-mobile {
+  width: 65px !important;
+}
+
+.payment-types-logo {
+  position: relative;
+  bottom: 7px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 950px) {
+  .payment-details-main {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+.vh-55 {
+  height: 60vh !important;
+} 
+
+@media screen and (min-height: 670px) {
+  .vh-55 {
+    height: 53vh !important;
+  }
+  .pay-now {
+    position: relative;
+    top: 20px;
+  }
+  .transaction-payer-details-mobile {
+    margin-top: 40px;
+  }
+  .payment-details-payer-header {
+    margin-top: 3rem;
+  }
+}

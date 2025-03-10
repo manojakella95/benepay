@@ -1,0 +1,22 @@
+{
+  "Common": {
+    "and": "y",
+    "Continue": "Seguir",
+    "or": "o"
+  },
+  "Login": {
+    "PrivacyPolicyCookie": "Política de privacidad y cookies.",
+    "PrivacyPolicyDesc": "Al navegar por este sitio, acepta las cookies utilizadas para mejorar y personalizar nuestros servicios y marketing, y para la actividad social. Lea nuestra política de privacidad para obtener más información sobre lo que hacemos con sus datos, así como sus derechos y opciones, incluido cómo administrar las cookies.",
+    "AcceptClose": "Aceptar y cerrar",
+    "ClaimAsGuest": "Reclamar como invitada",
+    "EmailOrMobile": "correo electrónico o móvil",
+    "EmailOrMobileTT": "Proporcione la ID de correo electrónico o el número de teléfono móvil que se comunicó con el pagador. p.ej. yourname@domain.com o número de teléfono móvil + 44-9123456789",
+    "UniqueRef": "Referencia única",
+    "UniqueRefTT": "Este es su código de referencia único que le proporciona el pagador en un correo electrónico",
+    "ByClicking": "Al hacer clic en continuar, acepto el",
+    "TermsOfService": "Términos de servicio",
+    "PrivacyPolicy": "Política de privacidad",
+    "HavingTrouble": "¿Teniendo problemas?",
+    "Register": "Registrarse"
+  }
+}

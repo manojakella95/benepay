@@ -1,0 +1,30 @@
+{
+  "Common": {
+    "and": "and",
+    "Continue": "Continue",
+    "or": "or"
+  },
+  "Login": {
+    "PrivacyPolicyCookie": "Privacy policy and cookies",
+    "Ppc1": "By browsing this site you accept cookies used to improve and personalise our services and marketing, and for social activity. Read our",
+    "Ppc2": "privacy policy",
+    "Ppc3": "for more about what we do with your data, as well as your right and choices - including how to manage cookies.",
+    "AcceptClose": "Accept & Close",
+    "ClaimAsGuest": "Claim as Guest",
+    "EmailOrMobile": "Email Id or mobile number",
+    "EmailOrMobileTT": "Please provide Email ID or Mobile number you have communicated with the payer. e.g. yourname@domain.com or mobile number +44-9123456789",
+    "UniqueRef": "Unique reference",
+    "UniqueRefTT": "This is your unique reference code provided to you by payer in an email",
+    "ByClicking": "By clicking continue, I agree to the",
+    "TermsOfService": "Terms of Service",
+    "PrivacyPolicy": "Privacy Policy",
+    "HavingTrouble": "Having Trouble?",
+    "Register": "Register",
+    "SampleCJ": "Sample Claim Journey",
+    "ResendOtp": "Resend OTP",
+    "VerifyOtp": "Verify OTP",
+    "Login": "Login",
+    "ForgotPassword": "Forgot Password",
+    "password": "Password"
+  }
+}

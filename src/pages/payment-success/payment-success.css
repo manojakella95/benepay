@@ -1,0 +1,97 @@
+.payment-details-main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.merchant-logo-mobile {
+  width: 65px !important;
+}
+
+.merchant-name {
+  margin-top: 3px !important;
+}
+
+.merchant-mobile {
+  border-radius: 20px;
+  box-shadow: 2px 0px 10px 1px rgb(0 0 0 / 10%);
+  margin: 20px 0px
+}
+
+#paymentAmountDesktop{
+  display: flex;
+  align-items: center;
+}
+
+#paymentAmountMobile {
+  display: flex;
+  align-items: center;
+}
+
+#copyIconContainerDesktop {
+  position: absolute;
+  cursor: pointer;
+  right: 0%;
+  height: 30px;
+  width: 30px;
+}
+
+/* Light theme */
+@media (prefers-color-scheme: light) {
+  #copyIconContainerDesktop {
+    position: absolute;
+    cursor: pointer;
+    right: 0%;
+    height: 30px;
+    width: 30px;
+    color: black;
+  }
+}
+
+#copiedTextDesktop {
+  position: absolute;
+  font-size: 16px;
+  color: rgb(222, 213, 213);
+  background-color: rgb(52, 47, 47);
+  padding: 3px;
+  top: 110%;
+  right: -15px;
+  border-radius: 8px;
+}
+
+#copyIconDesktop {
+  cursor: pointer;
+   height: 40px;
+   width: 30px;
+  margin-left: 20px;
+   margin-top: 10px;
+}
+
+#copyIconContainerMobile {
+  position: relative;
+}
+
+#copiedTextMobile {
+  position: absolute;
+  font-size: 16px;
+  color: rgb(222, 213, 213);
+  background-color: rgb(52, 47, 47);
+  padding: 3px;
+  top: -70%;
+  right: -20px;
+  border-radius: 8px;
+}
+
+#copyIconMobile {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin-left: 21px;
+  /* margin-top: 10px; */
+}
+
+@media only screen and (min-width: 500px) and (max-width: 950px) {
+  .payment-details-main {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

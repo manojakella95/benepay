@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node-terminal",
+            "request": "launch",
+            "name": "Launch Program",
+            "command": "nvm use v14.21.3 & npm run start"
+        }
+    ]
+}

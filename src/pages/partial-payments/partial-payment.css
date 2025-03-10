@@ -1,0 +1,108 @@
+
+
+@media only screen and (min-width: 250px) and (max-width: 365px)  {
+    .mobile-payment-details-main {
+    width: 85%;
+    margin: 0 auto;
+    }
+    .w-50 {
+        width: 12rem !important;
+    }
+    .my-w-50{
+        width: 10rem !important;
+    }
+    .my-py-3{
+        padding: 0.8rem;
+    }
+    .my-h-8 {
+        height: 3.80rem;
+        flex-wrap: wrap;
+        display: inline-flex;
+        flex-direction: row;
+        align-content: center;
+    }
+    .my-gap-4{
+        display: table-caption;
+    }
+}
+
+
+@media only screen and (min-width: 365px) and (max-width: 500px)  {
+    .mobile-payment-details-main {
+    width: 85%;
+    margin: 0 auto;
+    }
+    .w-50 {
+        width: 15rem !important;
+    }
+    .my-h-8 {
+        height: 3.9rem;
+        flex-wrap: wrap;
+        display: inline-flex;
+        flex-direction: row;
+        align-content: center;
+    }
+    .my-gap-4{
+        display: table-caption;
+    }
+}
+/* 
+@media only screen and (min-width: 500px) and (max-width: 950px) {
+    .payment-details-main {
+    width: 80%;
+    margin: 0 auto;
+  
+
+}} */
+
+
+.merchant-logo-mobile {
+    width: 65px !important;
+}
+
+.payment-types-logo {
+    position: relative;
+    bottom: 7px;
+}
+
+
+
+.vh-55 {
+    height: 60vh !important;
+}
+
+@media screen and (min-height: 670px) {
+    .vh-55 {
+        height: 53vh !important;
+    }
+
+    .pay-now {
+        position: relative;
+        top: 20px;
+    }
+
+    .transaction-payer-details-mobile {
+        margin-top: 40px;
+    }
+
+    .payment-details-payer-header {
+        margin-top: 3rem;
+    }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

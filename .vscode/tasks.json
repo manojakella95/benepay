@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "dev-deploy",
+            "label": "DEV Deploy",
+            "detail": "npm run build && npm run dev-aws",
+            "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "uat-deploy",
+            "label": "UAT Deploy",
+            "detail": "npm run build && npm run uat-aws",
+            "problemMatcher": []
+        }
+    ]
+}
